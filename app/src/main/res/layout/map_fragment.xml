@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context="com.navionics.demo.MainActivity">
-    <fragment android:name="com.navionics.android.nms.ui.NMSMapFragment"
+    <FrameLayout
         android:id="@+id/mapFragment"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
